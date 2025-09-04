@@ -121,7 +121,7 @@ export default function Home() {
               type="text"
               name="name"
               required
-              placeholder="Your full name"
+              placeholder="Your Full  Name"
               className="form-input px-4 py-3 rounded-lg bg-white focus:outline-none w-full text-black placeholder-[#999999]"
             />
           </label>
