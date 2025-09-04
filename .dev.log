@@ -1,0 +1,65 @@
+ ⚠ Warning: Found multiple lockfiles. Selecting /Users/zainulabideen/package-lock.json.
+   Consider removing the lockfiles at:
+   * /Users/zainulabideen/Downloads/MyDent_FormAgent-main 2/package-lock.json
+
+   ▲ Next.js 15.4.4
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.100.105:3000
+
+ ✓ Starting...
+ ✓ Ready in 3.3s
+ ○ Compiling / ...
+ ✓ Compiled / in 6.3s (575 modules)
+ GET / 200 in 6784ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 1393ms (343 modules)
+ GET /favicon.ico 200 in 1708ms
+ ✓ Compiled in 851ms (557 modules)
+ GET / 200 in 227ms
+ ✓ Compiled in 1777ms (557 modules)
+ GET / 200 in 144ms
+ ✓ Compiled in 210ms (557 modules)
+ GET / 200 in 79ms
+ ✓ Compiled in 708ms (557 modules)
+ GET / 200 in 77ms
+ ✓ Compiled in 555ms (557 modules)
+ GET / 200 in 147ms
+ ✓ Compiled in 1199ms (557 modules)
+ ✓ Compiled in 234ms (557 modules)
+ ⨯ ./app/page.js
+Error:   [31mx[0m Unterminated string constant
+    ,-[[36;1;4m/Users/zainulabideen/Downloads/MyDent_FormAgent-main 2/app/page.js[0m:27:1]
+ [2m24[0m |     const contact = form.contact.value;
+ [2m25[0m |     try {
+ [2m26[0m |       const res = await fetch(
+ [2m27[0m |         ",
+    : [35;1m        ^^[0m
+ [2m28[0m |         {
+ [2m29[0m |           method: "POST",
+ [2m30[0m |           headers: { "Content-Type": "application/json" },
+    `----
+  [31mx[0m Expected ',', got '{'
+    ,-[[36;1;4m/Users/zainulabideen/Downloads/MyDent_FormAgent-main 2/app/page.js[0m:28:1]
+ [2m25[0m |     try {
+ [2m26[0m |       const res = await fetch(
+ [2m27[0m |         ",
+ [2m28[0m |         {
+    : [35;1m        ^[0m
+ [2m29[0m |           method: "POST",
+ [2m30[0m |           headers: { "Content-Type": "application/json" },
+ [2m31[0m |           body: JSON.stringify({ name, email, country, contact }),
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/page.js
+ ✓ Compiled in 574ms (543 modules)
+ ✓ Compiled in 208ms (557 modules)
+ ✓ Compiled in 373ms (557 modules)
+ ✓ Compiled in 509ms (557 modules)
+ ✓ Compiled in 195ms (557 modules)
+ ✓ Compiled in 223ms (557 modules)
+ ✓ Compiled in 433ms (557 modules)
+ ✓ Compiled in 519ms (557 modules)
